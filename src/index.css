@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* El header fijo mide 4rem: se compensa para que los anclajes no queden tapados. */
+section[id] {
+  scroll-margin-top: 4rem;
+}
